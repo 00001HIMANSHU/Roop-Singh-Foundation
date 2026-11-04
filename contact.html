@@ -32,33 +32,42 @@
   <div class="donation-card"><h3>Send us a message</h3>
   
   
-<form action="https://formsubmit.co/roopsinghfoundationindia@gmail.com" method="POST">
-    <input type="hidden" name="_subject" value="New Website Contact Enquiry - ROOP SINGH FOUNDATION">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_captcha" value="true">
+
+<form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="PASTE_YOUR_ACCESS_KEY_HERE">
+
+    <input type="hidden" name="subject" value="New Contact Enquiry - ROOP SINGH FOUNDATION">
+    <input type="hidden" name="from_name" value="ROOP SINGH FOUNDATION Website">
+
+    <!-- Spam protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
 
     <div class="field">
       <label>Name</label>
-      <input name="Name" type="text" placeholder="Enter your name" required>
+      <input name="name" type="text" placeholder="Enter your name" required>
     </div>
 
     <div class="field">
       <label>Email</label>
-      <input name="Email" type="email" placeholder="Enter your email" required>
+      <input name="email" type="email" placeholder="Enter your email" required>
     </div>
 
     <div class="field">
       <label>Subject</label>
-      <input name="Subject" type="text" placeholder="Enter subject" required>
+      <input name="message_subject" type="text" placeholder="Enter subject" required>
     </div>
 
     <div class="field">
       <label>Message</label>
-      <textarea name="Message" placeholder="Write your message..." required></textarea>
+      <textarea name="message" placeholder="Write your message..." required></textarea>
     </div>
 
     <button class="btn" type="submit">Send message →</button>
+
 </form>
+
 
   
   <p class="small-note">This starter form opens the visitor's email application. Connect a secure form service before launch if you want submissions stored online.</p>
