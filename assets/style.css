@@ -13,3 +13,9 @@
 .founder-copy h2{max-width:680px}.founder-name{font:800 1.25rem Manrope;color:var(--navy);margin-top:25px}.founder-role{font-size:.86rem;color:var(--blue);font-weight:700;margin:4px 0 20px}.founder-quote{margin:25px 0 28px;padding:18px 22px;border-left:3px solid var(--gold);background:#fff;border-radius:0 14px 14px 0;color:var(--navy);font:600 1rem Manrope;box-shadow:0 8px 25px rgba(16,36,58,.045)}
 @media(max-width:900px){.founder-grid{grid-template-columns:1fr;gap:42px}.founder-photo-wrap{max-width:600px}.founder-photo-wrap>img{height:480px}.founder-photo-caption{right:12px}}
 @media(max-width:680px){.founder-photo-wrap>img{height:390px;border-radius:24px 24px 75px 24px}.founder-photo-caption{right:10px;bottom:15px;padding:12px}.founder-copy h2{font-size:2.1rem}}
+.logo-tagline {
+    font-size: 10px;
+    color: #64748b;
+    margin: 4px 0 0;
+    line-height: 1.4;
+}
