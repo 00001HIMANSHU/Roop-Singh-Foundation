@@ -11,6 +11,220 @@
 <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
 <nav class="nav"><a class="active" href="index.html">Home</a><a class="" href="about.html">About</a><a class="" href="programs.html">Programs</a><a class="" href="impact.html">Our Impact</a><a class="" href="gallery.html">Gallery</a><a class="" href="contact.html">Contact</a><a class="nav-cta" href="donate.html">Donate Now ↗</a></nav>
 </div>
+    
+<!-- ROOP SINGH FOUNDATION PREMIUM HERO -->
+
+<section class="rsf-hero">
+
+    <img
+        src="assets/roop-singh-ji.jpeg"
+        alt="In loving memory of Roop Singh Ji"
+        class="rsf-hero-image"
+    >
+
+    <div class="rsf-hero-overlay"></div>
+
+    <div class="rsf-hero-content">
+
+        <span class="rsf-eyebrow">
+            A LEGACY OF LOVE & SERVICE
+        </span>
+
+        <h1>
+            ROOP SINGH<br>
+            FOUNDATION
+        </h1>
+
+        <div class="rsf-divider">
+            <span></span>
+            शिक्षा • सेवा • संस्कार
+            <span></span>
+        </div>
+
+        <p class="rsf-hero-description">
+            Honouring a name. Continuing a legacy.
+            Creating hope through education, kindness
+            and service to humanity.
+        </p>
+
+        <a href="about.html" class="rsf-hero-button">
+            Discover Our Story →
+        </a>
+
+        <div class="rsf-memory">
+            In Loving Memory of Roop Singh Ji
+        </div>
+
+    </div>
+
+    <a href="#main-content" class="rsf-scroll">
+        <span>↓</span>
+        <small>SCROLL TO EXPLORE</small>
+    </a>
+
+</section>
+
+<style>
+.rsf-hero {
+    min-height: 88vh;
+    min-height: 88svh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #102b4b;
+    color: white;
+}
+
+.rsf-hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+}
+
+.rsf-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(7, 27, 53, .94) 0%,
+        rgba(12, 39, 70, .76) 43%,
+        rgba(10, 32, 58, .28) 100%
+    );
+}
+
+.rsf-hero-content {
+    position: relative;
+    z-index: 2;
+    width: min(700px, 90%);
+    margin-left: clamp(25px, 12%, 180px);
+    padding: 100px 0;
+}
+
+.rsf-eyebrow {
+    color: #e6c783;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.rsf-hero h1 {
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: clamp(42px, 6.5vw, 76px);
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: 1px;
+    margin: 25px 0;
+}
+
+.rsf-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #e6c783;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 24px 0;
+}
+
+.rsf-divider span {
+    width: 35px;
+    height: 1px;
+    background: #e6c783;
+}
+
+.rsf-hero-description {
+    max-width: 420px;
+    color: #e1e8f0;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+.rsf-hero-button {
+    display: inline-block;
+    padding: 14px 25px;
+    background: #e6c783;
+    color: #102b4b;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.rsf-hero-button:hover {
+    background: white;
+    transform: translateY(-3px);
+}
+
+.rsf-memory {
+    margin-top: 35px;
+    color: #dce4ee;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.rsf-scroll {
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+.rsf-scroll span {
+    font-size: 28px;
+}
+
+.rsf-scroll small {
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+@media(max-width:600px) {
+    .rsf-hero {
+        min-height: 78svh;
+    }
+
+    .rsf-hero-image {
+        object-position: 58% center;
+    }
+
+    .rsf-hero-overlay {
+        background: linear-gradient(
+            90deg,
+            rgba(7, 27, 53, .88),
+            rgba(7, 27, 53, .50)
+        );
+    }
+
+    .rsf-hero-content {
+        margin-left: 25px;
+        padding: 85px 0;
+    }
+
+    .rsf-hero h1 {
+        font-size: 43px;
+    }
+
+    .rsf-eyebrow {
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+}
+</style>
+
 </header>
  
     <main>
